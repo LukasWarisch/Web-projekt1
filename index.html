@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World of Football - Home</title>
+    <title>The World of Football - Home</title>
+
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <header>
         <nav class="navbar">
-            <div class="logo">⚽ World of Football</div>
+            <div class="logo">
+                <i class="fa-solid fa-football"></i>
+                <span class="logo-text">World of Football</span>
+            </div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="historie.html">Football History</a></li>
+                <li>
+                    <a href="index.html" class="active">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="historie.html">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span class="nav-text">History</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -25,7 +41,7 @@
         <p>Football is a team sport played all over the world, bringing joy and excitement to millions of fans every day.</p>
 
         <h2>Player Positions</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Earvtd6F6TrzgLqb40t04jWgK3KR3a7ZRJvyJdbHKw&s=10" alt="Detailed view of a football field" width="300" height="350">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Earvtd6F6TrzgLqb40t04jWgK3KR3a7ZRJvyJdbHKw&s=10" alt="Detailed view of a football field" width="400" height="250">
         <ul>
             <li>Goalkeeper</li>
             <li>Defender</li>
@@ -66,6 +82,20 @@
             <a href="https://en.wikipedia.org/wiki/Association_football" target="_blank" rel="noopener">Wikipedia</a>.
         </p>
     </main>
+
+    <footer>
+        <p>&copy; 2026 World of Football</p>
+        <div class="validators">
+            <!-- HTML Validator -->
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank" rel="noopener" title="Validate HTML">
+                <i class="fa-brands fa-html5"></i> HTML Validator
+            </a>
+            <!-- CSS Validator -->
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank" rel="noopener" title="Validate CSS">
+                <i class="fa-brands fa-css3-alt"></i> CSS Validator
+            </a>
+        </div>
+    </footer>
 
 </body>
 </html>
